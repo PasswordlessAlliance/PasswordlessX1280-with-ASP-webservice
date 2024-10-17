@@ -1,0 +1,13 @@
+
+create database passwordlessx1280;
+
+use passwordlessx1280;
+
+CREATE TABLE userinfo 
+(
+    id       VARCHAR(100) NOT NULL PRIMARY KEY,
+	pwd      VARCHAR(100) NOT NULL,
+    name     VARCHAR(100),
+	joindate DATETIME NOT NULL DEFAULT GETDATE()
+);
+GO
