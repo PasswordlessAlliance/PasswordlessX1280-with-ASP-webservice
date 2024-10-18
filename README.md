@@ -21,33 +21,42 @@ Moreover, it enables out-of-band biometric authentication for all B2C online ser
 
 ## How to use
 + Project source
-  + Add a site in IIS and place the project source in the document root folder.
-  + Add index.asp to the default document.
-  + Unzip the decrypt.zip file in the /decrypt folder to that location.
-  + Access the site you added to your browser.
-  + Make sure the screen in the screenshot below appears.
-    ![image](https://github.com/user-attachments/assets/a5acdd5a-2da9-4b12-95d6-c5d0b19e7776)
+  1. Add a site in IIS and place the project source in the document root folder.
+  2. Add index.asp to the default document.
+  3. Unzip the decrypt.zip file in the /decrypt folder to that location.
+  4. Access the site you added to your browser.
+  5. Make sure the screen in the screenshot below appears.
+    ![image](https://github.com/user-attachments/assets/ed1d8c6f-2ebd-467a-850f-9c9bf5209cdf)
 
 + Create an account on the sample project site
-  + Click <b>create account</b>, enter your ID, password, and name, and then click <b>create</b> button.
-    ![image](https://github.com/user-attachments/assets/9e833f39-760c-4ed8-bbb4-9bb9bbd71671)
+  1. Click <b>create account</b>.
+  2. Enter your ID, password, and name, and then click <b>create</b> button.
+    ![image](https://github.com/user-attachments/assets/2158dd90-875e-4f20-8dd4-d0593c1090cb)
 
 + Register for passwordless service
-  + Click <b>passwordless</b>, then click <b>passwordless Reg/Unreg</b>, enter ID and password, and click <b>passwordless Reg/Unreg</b> button.
-    ![image](https://github.com/user-attachments/assets/b60a6515-a1b2-4853-986a-25eba7596efb)
+  1. On the login screen of the browser, click <b>passwordless</b>.
+  2. Click <b>passwordless Reg/Unreg</b>.
+  3. Enter ID and password, and click <b>passwordless Reg/Unreg</b> button.
+    ![image](https://github.com/user-attachments/assets/89950b14-06cf-4111-b325-b41581f04c61)
 
-  + When the QR Code appears on the screen, launch the passwordless X1280 app, click the <b>[+]</b> in the upper right corner, turn on the camera, and scan the QR Code.
+  4. When the QR Code appears on the screen, launch the passwordless X1280 app, click the <b>[+]</b> in the upper right corner, turn on the camera, and scan the QR Code.
     ![image](https://github.com/user-attachments/assets/dfff4447-d0ff-444c-a4d0-e0b894b05bc2)
 
 + Passwordless X1280 login
-  + On the login screen of the browser, enter only the ID without entering a password and click the login button. When a 6-digit number appears on the screen, check that the same number appears in the Passwordless X1280 app and click the OK button.
-  + If the 6-digit number in your browser and the number in the Passwordless X1280 app are the same, this indicates that no tampering has occurred.
+  1. On the login screen of the browser, enter only the ID without entering a password and click the login button.
+  2. When a 6-digit number appears on the screen, check that the same number appears in the Passwordless X1280 app and click the OK button.
+    (__If the 6-digit number in your browser and the number in the Passwordless X1280 app are the same, this indicates that no tampering has occurred.__)
     ![image](https://github.com/user-attachments/assets/6e0691a7-a812-4c75-9b35-e4e43179b4b3)
 
 
-## Passwordless Alliance
+## Who we are
 ![image](https://github.com/user-attachments/assets/78ab716f-fb04-44fc-a584-5d060aff6d8c)
 
 [https://www.passwordlessalliance.org](https://www.passwordlessalliance.org/)
 
-Passwordless Alliance is providing Passwordless X1280 software for free to B2C online services worldwide. Join as a Passwordless Alliance member now and help create a world without passwords!
+### Passwordless Alliance
+The Passwordless Alliance aims to advance the passwordless world by providing free passwordless software to B2C online services worldwide.
+
+Passwordless X1280 software, provided by the Passwordless Alliance, is a technology defined as X.1280 by ITU-T, the International Technology Standardization Organization under the United Nations. It allows online services to present an automatic password to the user, and the user confirms it with their smartphone, instead of the user entering the password and online services confirming it.
+
+We want to create a password-free, secure, and convenient digitized world by letting online services take over the responsibility of proving passwords instead of users memorizing and changing them. Join us in creating a passwordless world!
