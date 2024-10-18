@@ -26,12 +26,15 @@ Moreover, it enables out-of-band biometric authentication for all B2C online ser
   3. Unzip the decrypt.zip file in the /decrypt folder to that location.
   4. Access the site you added to your browser.
   5. Make sure the screen in the screenshot below appears.
-    ![image](https://github.com/user-attachments/assets/ed1d8c6f-2ebd-467a-850f-9c9bf5209cdf)
+
+    ![image](https://github.com/user-attachments/assets/81f0092c-8222-44ad-b163-4028dcf5e6fa)
 
 + Create an account on the sample project site
   1. Click <b>create account</b>.
   2. Enter your ID, password, and name, and then click <b>create</b> button.
-    ![image](https://github.com/user-attachments/assets/2158dd90-875e-4f20-8dd4-d0593c1090cb)
+  
+    ![image](https://github.com/user-attachments/assets/ba3463c1-10f5-4ed0-9f8d-a936ce07327d)
+
 
 + Register for passwordless service
   1. On the login screen of the browser, click <b>passwordless</b>.
