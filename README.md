@@ -100,7 +100,7 @@ To proceed with the process below, you have to sign up the Members site and the 
 ## Applying Passwordless X1280 server ID and server key to web application server
   Modify the project's /src/main/resources/properties/config.properties file
   
-  ![image](https://github.com/user-attachments/assets/6dbb0ae3-c100-4b82-94aa-be2a473cd61c)
+  ![image](https://github.com/user-attachments/assets/f248fbcf-74f4-4bdf-aecc-1053eb298550)
 
   ① Apply the server ID value copied to notepad.
   
