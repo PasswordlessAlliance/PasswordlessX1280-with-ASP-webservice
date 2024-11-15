@@ -17,5 +17,4 @@ full_url = "http://your-passwordlessX1280-domain:11040"						' Passwordless auth
 serverId = "Set your server ID"												' Passwordless server id
 serverKey = "Set your server key"											' Passwordless server key
 ip = Request.ServerVariables("REMOTE_ADDR")									' Client IP
-decrypt_url = "http://your-passwordlessX1280-domain:11100/api/decrypt"		' Passwordless oneTimeToken Decrypt REST-API
 %>
