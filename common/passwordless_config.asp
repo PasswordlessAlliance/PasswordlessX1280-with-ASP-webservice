@@ -13,9 +13,9 @@ getSpUrl = "/ap/rest/auth/getSp"											' Passwordless API - getSp
 resultUrl = "/ap/rest/auth/result"											' Passwordless API - result
 cancelUrl = "/ap/rest/auth/cancel"											' Passwordless API - cancel
 
-full_url = "http://passwordless-edu.filingcloud.com:11040"					' Passwordless auth server
-serverId = "42ba3102602e4446a8eac389935e543c"								' Passwordless server id
-serverKey = "840573a32f7beb79"												' Passwordless server key
+full_url = "http://your-passwordlessX1280-domain:11040"					' Passwordless auth server
+serverId = "Set your server ID"								' Passwordless server id
+serverKey = "Set your server key"												' Passwordless server key
 ip = Request.ServerVariables("REMOTE_ADDR")									' Client IP
-decrypt_url = "http://passwordless-edu.filingcloud.com:11100/api/decrypt"	' Passwordless oneTimeToken Decrypt REST-API ¼­¹ö (³»ºÎ)
+decrypt_url = "http://your-passwordlessX1280-domain:11100/api/decrypt"	' Passwordless oneTimeToken Decrypt REST-API Â¼Â­Â¹Ã¶ (Â³Â»ÂºÃŽ)
 %>
