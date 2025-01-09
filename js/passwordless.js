@@ -137,7 +137,7 @@ function login() {
 		return false;
 	}
 
-	// Password ·Î±×ÀÎ
+	// Password ï¿½Î±ï¿½ï¿½ï¿½
 	if(selPasswordNo == 1) {
 		if(pw == "") {
 			alert(str_input_password);	// PASSWORD
@@ -502,6 +502,9 @@ function cancelLogin() {
 	var result = callApi(data);
 
 	window.localStorage.removeItem('session_id');
+	if (qrSocket && qrSocket.readyState === WebSocket.OPEN) {
+		qrSocket.close();
+	}
 }
 
 // Open passwordless management page
@@ -742,6 +745,9 @@ function regPasswordlessOK() {
 	
 		cancelManage();
 	}
+	else{
+		alert(str_reg_not_yet);
+	}
 }
 
 // Passwordless service cancellation
@@ -801,6 +807,9 @@ function cancelManage() {
 	$("#reg_mobile_check").hide();
 	
 	passwordless = window.localStorage.getItem('passwordless');
+	if (qrSocket && qrSocket.readyState === WebSocket.OPEN) {
+		qrSocket.close();
+	}
 	
 	if(passwordless != "Y")
 		selPassword(1);
