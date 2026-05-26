@@ -157,6 +157,9 @@ Step-by-Step Demonstration – [https://www.youtube.com/watch?v=Rt6kfMZ82o8](htt
     ![image](https://github.com/user-attachments/assets/6e0691a7-a812-4c75-9b35-e4e43179b4b3)
 
 
+## Passwordless X1280 WordPress Plugin
+Official WordPress Plugin is currently under review (Account: passwordlessalliance)
+
 ## Who we are
 ![image](https://github.com/user-attachments/assets/78ab716f-fb04-44fc-a584-5d060aff6d8c)
 
